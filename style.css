@@ -2,15 +2,23 @@ body {
     margin: 0;
 }
 
+.one,
+.two,
+.three,
+.four {
+    min-height: 300px;
+    max-height: 1000px;
+}
+
 .one {
     background-color: darkred;
-    padding: 0 8px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 8px;
 }
 
 a {
@@ -59,6 +67,7 @@ button {
     border-radius: 12px;
     font-size: 16px;
     font-weight: 600;
+    border: solid;
 }
 
 .burrows {
@@ -85,7 +94,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 32px;
+    padding: 1rem
 }
 
 .info {
@@ -95,9 +104,10 @@ button {
     align-items: center;
     gap: 52px; 
     color:#E5E7EB;
+    padding: 1rem 5rem;
 }
   
-  .goblin {
+.goblin {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,13 +116,58 @@ button {
     gap: 16px;
 }
   
-  .text {
+.text {
     text-align: center;
 }
   
-  img {
+img {
     width: 150px;
     height: 150px;
     border-radius: 32px;
 }
-  
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(131, 126, 126);
+    padding: 1rem 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 0 auto;
+}
+
+.four {
+    background-color: rgb(97, 12, 12);
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    min-width: 400px;
+    background-color: rgb(49, 7, 7);;
+    padding: 1rem 3rem;
+    color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.fourtitle {
+    font-weight: bolder;
+    font-size: 24px;
+}
